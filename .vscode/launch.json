@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Current File (Internal Console)",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "env": {
+        "PYTHONUTF8": "1",
+        "PYTHONIOENCODING": "utf-8"
+      },
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}
